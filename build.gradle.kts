@@ -42,5 +42,5 @@ tasks.withType<Test> {
 
 mybatisGenerator {
 	verbose = true
-	configFile = "${projectDir}/src/main/resources//generatorConfig.xml"
+	configFile = "${projectDir}/src/main/resources/generatorConfig.xml"
 }
