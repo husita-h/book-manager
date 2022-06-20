@@ -16,7 +16,7 @@
     <!--  接続先のURL,ユーザーID,パスワードを指定する  -->
     <jdbcConnection
             driverClass="com.mysql.jdbc.Driver"
-            connectionURL="jdbc:mysql://127.0.0.1:3306/book-manager"
+            connectionURL="jdbc:mysql://127.0.0.1:3306/book_manager"
             userId="root"
             password="mysql">
       <!--  MySQL8系を使用している場合は指定必須  -->
@@ -27,11 +27,11 @@
     </javaTypeResolver>
     <!--  `javaModelGenerator`,`javaClientGenerator`でコードの出力先のパスを指定する。src/main/kotlin配下のdatabaseパッケージに出力されるように設定する  -->
     <javaModelGenerator
-            targetPackage="com.book.manager.infrastructure.database.record"
+            targetPackage="com.bookmanager.infrastructure.database.record"
             targetProject="src/main/kotlin">
     </javaModelGenerator>
     <javaClientGenerator
-            targetPackage="com.book.manager.infrastructure.database.mapper"
+            targetPackage="com.bookmanager.infrastructure.database.mapper"
             targetProject="src/main/kotlin">
     </javaClientGenerator>
     <!--  対象のテーブル名を指定する。  -->
