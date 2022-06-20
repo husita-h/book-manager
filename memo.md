@@ -48,4 +48,18 @@ insert into user values(1, "admin@test.com", "adminadmin", "管理者", "ADMIN")
 
 ---
 
-# 
+# ビルドに失敗する
+```
+Could not open init generic class cache for initialization script '/private/var/folders/kf/0y142yvn13d1h2yzcsy6ls280000gn/T/wrapper_init5.gradle' (/Users/tfukushi/.gradle/caches/6.9/scripts/ck034wklczs64xkn54a0k6pbt).
+> BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 61
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+```
+
+## Gradle JVMのバージョンを下げる
+
+- 変更前
+  - `coretto-17`
+- 変更後
+  - `jvr-11`
