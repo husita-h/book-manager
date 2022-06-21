@@ -57,7 +57,7 @@ Could not open init generic class cache for initialization script '/private/var/
 Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 ```
 
-## Gradle JVMのバージョンを下げる
+## [解決法]Gradle JVMのバージョンを下げる
 
 - 変更前
   - `coretto-17`
