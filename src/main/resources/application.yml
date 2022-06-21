@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jbdc:mysql://127.0.0.1:3306/bookmanager?characterEncoding=utf
+    username: root
+    password: mysql
+    driverClassName: com.mysql.jbdc.Driver
+  jackson:
+    property-naming-strategy: SNAKE_CASE
