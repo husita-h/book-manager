@@ -3,7 +3,7 @@
  */
 package com.bookmanager.infrastructure.database.mapper
 
-import com.bookmanager.domain.enum.RoleType
+import RoleType
 import java.sql.JDBCType
 import org.mybatis.dynamic.sql.SqlTable
 
