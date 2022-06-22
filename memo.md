@@ -1,3 +1,7 @@
+# メモ
+
+---
+
 # データベースの作成
 
 ## スクリプト
@@ -64,5 +68,23 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 - 変更後
   - `jvr-11`
 - <img width="1160" alt="スクリーンショット 2022-06-21 1 23 46" src="https://user-images.githubusercontent.com/71882104/174645528-1544fa04-5642-4fc0-b419-b26af09ff09e.png">
+
+# MySQLへログイン
+`mysql -h 127.0.0.1 --port 3306 -u root -p mysql`
+
+## コマンドオプション
+https://dev.mysql.com/doc/refman/5.6/ja/mysql-command-options.html
+- `-h` or `--host`
+  - 指定されたホストの MySQL サーバーに接続します。
+- `-uroot` or `--user=root`
+  - サーバーへの接続時に使用する MySQL ユーザー名。
+  - rootユーザーでログイン
+- `-p` or `--password`
+  - サーバーに接続する際に使用するパスワードです。短いオプション形式 (-p) を使用した場合は、オプションとパスワードの間にスペースを置くことはできません。コマンド行で、--password オプションまたは -p オプションに続けて password の値を指定しなかった場合、mysql はそれを要求します。
+
+
+# アノテーション
+
+
 
 
